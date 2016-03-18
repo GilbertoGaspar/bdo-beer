@@ -7,9 +7,9 @@ function calculate() {
     var mineralOutput = document.getElementById("txtMineralOutput");
     var sugarOutput = document.getElementById("txtSugarOutput");
     var agentOutput = document.getElementById("txtAgentOutput");
-    var wheat = Math.floor(wheatInput.value / 5) * 5;
-    wheatOutput.value = wheat;
+    var wheat = (Math.floor(wheatInput.value / 5) * 5)/5;
+    wheatOutput.value = wheat*5;
     mineralOutput.value = wheat * 6;
-    sugarOutput.value = wheat/5;
-    agentOutput.value = wheat/2;
+    sugarOutput.value = wheat;
+    agentOutput.value = wheat*2;
 }
