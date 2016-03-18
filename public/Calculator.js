@@ -11,5 +11,5 @@ function calculate() {
     wheatOutput.value = wheat;
     mineralOutput.value = wheat * 6;
     sugarOutput.value = wheat/5;
-    agentOutput.value = wheat*2;
+    agentOutput.value = wheat/2;
 }
