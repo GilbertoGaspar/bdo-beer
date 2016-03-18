@@ -5,5 +5,5 @@ Requires NPM 3.0 or greater
 To run:
 
 	run "npm install"
-	run "node index.js"
+	run "node server.js"
 	

@@ -9,7 +9,7 @@ app.use(express.static(__dirname + '/public'));
 // views is directory for all template files
 
 app.get('/', function(request, response) {
-  response.sendFile(path.join(__dirname + '/Main.html'));
+  response.sendFile(path.join(__dirname + '/public/main.html'));
 });
 
 app.listen(app.get('port'), function() {
